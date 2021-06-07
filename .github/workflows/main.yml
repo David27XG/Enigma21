@@ -53,3 +53,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+          - name: Firebase GitHub Action
+  uses: jonahsnider/firebase-action@1.0.7
